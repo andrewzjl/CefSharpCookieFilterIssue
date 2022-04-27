@@ -21,9 +21,9 @@ namespace WpfApp2
         }
         protected override ICookieAccessFilter GetCookieAccessFilter(IWebBrowser chromiumWebBrowser, IBrowser browser, IFrame frame, IRequest request)
         {
-            //return null;
+            return null;
             // return new CookieAccessFilter();
-            return new CookieFilter();
+            // return new CookieFilter();
         }
     }
 }
